@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+*{
+    font-family: "cairo";
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: green;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(172, 241, 193);
+  }
+header h1{
+    color: green;
+    background-color: rgb(172, 218, 161);
+    font-size: 50px;
+}
+nav3{
+    display: flex;
+    justify-content: right;
+    align-items: center;    
+    padding-right: 5vh ;
+    background-image: linear-gradient(to right,  #04b430, #47d69b,#f7df00, #ffffff, #ffffff,  #ffffff, #04b430); 
+    flex-wrap: wrap;
+    max-block-size: 10vh;
+
+}
+header nav3 img{
+    max-height: 5vh;
+    margin: 1% 10px;
+}
+header nav1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+header a1{
+    align-items: center;
+    position: fixed;
+    color:green;
+    transition: ease .6s;
+    font-size: 2vh;
+    z-index: auto;
+    width: 100%;;
+    text-align: center;
+
+}
+header a2{
+    text-decoration: none;
+    color:green;
+    transition: ease .6s;
+    font-size: 3vh;
+
+}
+
+header{
+    background-color:white;
+    border-top: solid green 5px ;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+header .item-menu{
+    display: flex;
+    justify-content: center;
+    transition: ease .6s;
+    font-size: 20vh;
+    max-height: 10vh;
+}
+
+header .item-menu {
+    color: green;
+    text-decoration: none;
+    transition: ease .6s;
+    font-size: 2vh;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin: 0px 5vh;
+}
+
+header .item-menu a:hover{
+    text-decoration:underline;
+    transform: scale(1.1);
+
+}
+
+.carsour {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: rgb(8, 148, 71);
+    padding: 0px 80px;
+    background-size: 100%;
+    background-image: url(images/city40.png);
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .8);
+    background-position: center;
+
+}
+.carsour span{
+    color: green;
+}
+.carsour a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 128, 9);
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    display: inline-block;
+    margin-top: 10px;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+    transition: ease 1000ms;
+}
+
+.carsour a:hover{
+    text-decoration:underline;
+    color: rgb(9, 59, 9);
+    background-color: aquamarine;
+    transform: scale(1.1);
+
+}
+.services .margen{
+    display: flex;
+    align-items: center;
+    height: 140px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+
+}
+.services .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 10px;
+    margin: 20px 30px;
+    transition: ease 1000ms;
+
+}
+.services .card{
+    box-shadow: 2px 2px 5px 5px #ccc;
+    padding: 10px;
+    width: 18em;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    transition: ease 1000ms;
+    border: solid green 2px;
+    border-radius: 40px 0px;
+    overflow: hidden;
+
+}
+.services .card:hover{
+    transform: scale(1.1);
+}
+.services h3{
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+
+
+.services .container .card h4{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;    
+    color: crimson;
+    width: 100%;
+
+}
+
+.card p{
+    font-weight: 800;
+}
+.al-khadra .margen{
+    display: flex;
+    align-items: center;
+    height: 140px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+
+}
+.al-khadra .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 10px;
+    margin: 20px 30px;
+    transition: ease 1000ms;
+
+}
+.al-khadra .card{
+    box-shadow: 2px 2px 5px 5px #ccc;
+    padding: 10px;
+    width: 18em;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    transition: ease 1000ms;
+    border: solid green 2px;
+    border-radius: 40px 0px;
+    overflow: hidden;
+
+}
+.al-khadra .card:hover{
+    transform: scale(1.1);
+}
+.al-khadra h3{
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+
+
+.al-khadra .container .card h4{
+    display: flex;
+    justify-content: center;
+    color: crimson;
+    width: 100%;
+    font-size: 25px;
+}
+
+.card p{
+    font-weight: 800;
+}
+.map {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.map div {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 10px 35px 0px lightgrey;
+}
+.map iframe {
+    width: 100%;
+}
+.up i{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.up:hover{
+    background-color: white;
+    color: green;
+    border: solid green 2px;
+}
